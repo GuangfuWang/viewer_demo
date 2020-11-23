@@ -1,0 +1,212 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f722/fast && /usr/bin/make -f CMakeFiles/cmTC_4f722.dir/build.make CMakeFiles/cmTC_4f722.dir/build
+make[1]: Entering directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f722.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4f722.dir/CheckSymbolExists.c.o   -c /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_4f722.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4f722.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4f722.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4f722/fast' failed
+make: *** [cmTC_4f722/fast] Error 2
+
+
+File /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_799bd/fast && /usr/bin/make -f CMakeFiles/cmTC_799bd.dir/build.make CMakeFiles/cmTC_799bd.dir/build
+make[1]: Entering directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_799bd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_799bd.dir/CheckSymbolExists.c.o   -c /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_799bd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_799bd.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_799bd.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_799bd/fast' failed
+make: *** [cmTC_799bd/fast] Error 2
+
+
+File /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6712a/fast && /usr/bin/make -f CMakeFiles/cmTC_6712a.dir/build.make CMakeFiles/cmTC_6712a.dir/build
+make[1]: Entering directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6712a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6712a.dir/CheckSymbolExists.c.o   -c /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_6712a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6712a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6712a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_6712a/fast' failed
+make: *** [cmTC_6712a/fast] Error 2
+
+
+File /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_617b0/fast && /usr/bin/make -f CMakeFiles/cmTC_617b0.dir/build.make CMakeFiles/cmTC_617b0.dir/build
+make[1]: Entering directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_617b0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_617b0.dir/CheckSymbolExists.c.o   -c /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_617b0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_617b0.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_617b0.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_617b0/fast' failed
+make: *** [cmTC_617b0/fast] Error 2
+
+
+File /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_876df/fast && /usr/bin/make -f CMakeFiles/cmTC_876df.dir/build.make CMakeFiles/cmTC_876df.dir/build
+make[1]: Entering directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_876df.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_876df.dir/CheckSymbolExists.c.o   -c /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_876df.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_876df.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_876df.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_876df/fast' failed
+make: *** [cmTC_876df/fast] Error 2
+
+
+File /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6a54a/fast && /usr/bin/make -f CMakeFiles/cmTC_6a54a.dir/build.make CMakeFiles/cmTC_6a54a.dir/build
+make[1]: Entering directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a54a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6a54a.dir/CheckSymbolExists.c.o   -c /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_6a54a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6a54a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6a54a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_6a54a/fast' failed
+make: *** [cmTC_6a54a/fast] Error 2
+
+
+File /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3de57/fast && /usr/bin/make -f CMakeFiles/cmTC_3de57.dir/build.make CMakeFiles/cmTC_3de57.dir/build
+make[1]: Entering directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3de57.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ltbb -mavx -march=native -lOpenCL -ltbb -O3     -o CMakeFiles/cmTC_3de57.dir/CheckIncludeFile.c.o   -c /home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3de57
+/home/guangfu/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3de57.dir/link.txt --verbose=1
+/usr/bin/cc  -ltbb -mavx -march=native -lOpenCL -ltbb -O3      -rdynamic CMakeFiles/cmTC_3de57.dir/CheckIncludeFile.c.o  -o cmTC_3de57 
+/usr/bin/ld: cannot find -lOpenCL
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3de57.dir/build.make:86: recipe for target 'cmTC_3de57' failed
+make[1]: *** [cmTC_3de57] Error 1
+make[1]: Leaving directory '/home/guangfu/CLionProjects/test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3de57/fast' failed
+make: *** [cmTC_3de57/fast] Error 2
+
+
+
